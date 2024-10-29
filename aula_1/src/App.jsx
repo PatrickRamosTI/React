@@ -1,26 +1,9 @@
+import { About } from "./pages/About"
+import {Home} from "./pages/Home"
 
-function ComponnteReutilizavel(props) {
-  return(
- <div>
-  <span>
-    Card de pokemon {props.nome}</span>
- </div>
-
-  )
-}
-
-
-function App() {
- 
+export const App = () => {
   return (
-    <div>
-      <ComponnteReutilizavel nome = "Pikachu"/>
-      <ComponnteReutilizavel nome = "Raichu"/>
-      <ComponnteReutilizavel nome = "Charmander"/>
-      <ComponnteReutilizavel nome = "Bulbasour"/>
-    </div>
-    
+   //<Home/>
+   <About/>
   )
 }
-
-export default App
