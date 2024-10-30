@@ -1,5 +1,5 @@
 {
-  "name": "aula_1",
+  "name": "exercicios_aula1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "aula_1": "file:",
+    "exercicios_aula1": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
